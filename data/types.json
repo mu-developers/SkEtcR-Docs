@@ -1,0 +1,13 @@
+[
+  {
+    "title": "MythicMob Mob",
+    "description": "A MythicMob Mob",
+    "since": "3.1",
+    "patterns": ["mythicmob"],
+    "examples": [
+      "send \"Mob Name: %mythicmob%\"",
+      "send \"Mob Type: %type of mythicmob%\"",
+      "send \"Mob Display Name: %name of mythicmob%\""
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Is Unknown Command",
+    "description": "Checks if the command is unknown. (Only use at on command event.)",
+    "since": "2.3",
+    "patterns": ["command (1¦is|2¦is(n't| not)) exist"],
+    "examples": ["on command:", "    if command is not exist:"]
+  },
+  {
+    "title": "Is Even Number",
+    "description": "Checks if the number is even.",
+    "since": "2.3",
+    "patterns": ["number (1¦is|2¦is(n't| not)) even"],
+    "examples": ["if 2 is even:"]
+  },
+  {
+    "title": "Is Inventory Full",
+    "description": "Checks if the inventory is full.",
+    "since": "3.0",
+    "patterns": ["%inventory% (1¦is|2¦is(n't| not)) full"],
+    "examples": ["if player's inventory is full:"]
+  },
+  {
+    "title": "Is MagicSpell Spell Damage",
+    "description": "Checks if the damage is caused by a spell.",
+    "since": "3.1",
+    "patterns": ["attack (1¦is|2¦is(n't| not)) magic"],
+    "examples": ["if attack is magic:"]
+  },
+  {
+    "title": "is MythicMobs Mob",
+    "description": "Checks if the mob is a MythicMobs mob.",
+    "since": "3.1",
+    "patterns": ["%entity% (1¦is|2¦is(n't| not)) (mm|mythicmythicmob[s])"],
+    "examples": ["if event-entity is mm:"]
+  },
+  {
+    "title": "Is Animal",
+    "description": "Checks if the entity is an animal.",
+    "since": "3.2",
+    "patterns": ["%entity% (1¦is|2¦is(n't| not)) animal[s]"],
+    "examples": ["if event-entity is animal:"]
+  }
+]
