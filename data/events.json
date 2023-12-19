@@ -91,6 +91,13 @@
     "title": "At Time",
     "description": "Called at specific time",
     "since": "2.8",
+    "patterns": ["time at %string%"],
+    "examples": ["on time at \"15:00:00\""]
+  },
+  {
+    "title": "At Time",
+    "description": "Called at specific time",
+    "since": "4.0",
     "patterns": ["time at %time%"],
     "examples": ["on time at 15:00:00"]
   },
